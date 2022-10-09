@@ -1,0 +1,22 @@
+<html lang="ja">
+	<head>
+		<meta charset="UTF-8">
+		<title>XOR暗号化ツール</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<center>
+		<h1>XOR暗号化WEBツール</h1>
+		<label>平文: <input type="text" id="Hirabun"></label>
+		<br>
+		<label>カギ: <input type="text" id="Key"></label>
+		<p><button type="button" onclick="angou();">暗号化</button></p>
+		<label>暗号化結果</label>
+		<br>
+		<input type="text" id="Ans" readonly>
+		<p><button onclick="copyToClipboard()">コピー</button></p>
+		</center>
+		<p>ver 1.0.0<br>by Clover.</p>
+		<script src="main.js"></script>
+	</body>
+</html>
